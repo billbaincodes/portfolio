@@ -1,13 +1,16 @@
 import React from 'react'
 
-const Header = () => {
+const Header = ({aboutSetter, mainSetter}) => {
+
+
+
   return (
     <nav className="header">
-      <h4>Bill Bain Codes</h4>
-      <a className="title" href="index.html">Home</a>
-      <a className="title" href="index.html">Projects</a>
-      <a className="title" href="index.html">About</a>
-      <a className="title" href="index.html">Contact</a>
+      <h4 className="headerLogo">Bill Bain Codes</h4>
+      <a className="title" onClick={mainSetter}>Home</a>
+      <a className="title">Projects</a>
+      <a className="title" onClick={aboutSetter}>About</a>
+      <a className="title">Contact</a>
     </nav>
   )
 }
