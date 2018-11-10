@@ -49,11 +49,10 @@ class App extends Component {
     return (
       <div className="site-wrapper">
         <Header navigationSelect={this.navigationSelect}
-                modalToggle={this.modalToggle}
-        />
+                modalToggle={this.modalToggle}/>
         {this.state.modal ? <ContactModal modalToggle={this.modalToggle}/> : ''}
         <div className="main-content">
-          {this.navigationRender()}
+        {this.navigationRender()}
         </div>
         <Footer />
       </div>
