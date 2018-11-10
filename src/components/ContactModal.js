@@ -11,7 +11,7 @@ const Modal = ({ modalToggle }) => {
 
     <main className="main">
       <div className='modal-display'>
-        <div class="modal-content">
+        <div className="modal-content">
           <span class="close" onClick={modalToggle}>&times;</span>
           <div class="modal-wrapper">
             <a href="https://www.linkedin.com/in/billbaincodes/" target="blank"><img className="logo" src={linkedIn} alt="LinkedIn"></img></a>
