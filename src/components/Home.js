@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Animation from './Animation'
 
 const Home = () => {
   return (
@@ -9,6 +9,7 @@ const Home = () => {
         <h3>Welcome</h3>
         <p>Become one with inner selfness</p>
         <br />
+        <Animation />
       </article>
     </main>
 
