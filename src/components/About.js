@@ -10,13 +10,13 @@ const Main = () => {
         <img className="headshot" src={headshot} alt="headshot"></img>
         <br />
         <br />
-        <embed src={resume} width="500" height="375"></embed>
+        <embed src={resume} width="750" height="500"></embed>
         <p>Job please</p>
         <br />
       </article>
     </main>
   )
-  
+
 }
 
 export default Main

@@ -93,10 +93,11 @@ a.title:hover {
 .main-content {
   flex: 1;
 }
-
-
-.modal-hidden {
-  display: none; /* Hidden by default */
+.modal-wrapper {
+  display: flex;
+  align-items: center;
+  margin: .5rem;
+  justify-content: space-around;
 }
 
 .modal-display {
@@ -119,7 +120,7 @@ a.title:hover {
   margin: auto;
   padding: 20px;
   border: 1px solid #888;
-  width: 80%;
+  width: 450px;
 }
 
 /* The Close Button */

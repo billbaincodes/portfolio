@@ -1,7 +1,7 @@
 import React from 'react'
 
 
-const Main = () => {
+const Home = () => {
   return (
 
     <main className="main">
@@ -15,4 +15,4 @@ const Main = () => {
   )
 }
 
-export default Main
+export default Home
