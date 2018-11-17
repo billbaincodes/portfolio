@@ -7,7 +7,7 @@ const Main = () => {
   return (
     <main className="main">
       <article className="article">
-        <img className="headshot" src={headshot} alt="headshot"></img>
+        <img className="headshot" src={headshot} alt="mymug"></img>
         <br />
         <br />
         <embed src={resume} width="750" height="500"></embed>
